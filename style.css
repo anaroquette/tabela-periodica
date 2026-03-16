@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+    table{
+        width: 90%;
+        height: 100vh;
+        margin: auto;
+    }
+    td{
+        width: 5%;
+        height: 8vh;
+    }
+
+    .border{
+        border: solid;
+        text-align: center;
+    }
+
+    .gasesnobres{background-color: rgb(50, 164, 209);}
+    .naometais{background-color: rgb(95, 189, 111);} 
+    .alcalinos{background-color: rgb(228, 154, 101);}
+    .alcalinosterrosos{background-color: rgb(223, 210, 95);}
+    .lantanideos{background-color: rgb(149, 222, 235);}
+    .semimetal{background-color: rgb(111, 209, 188);}
+    .halogenios{background-color: rgb(154, 192, 235);}
+    .transicoes{background-color: rgb(230, 154, 164);}
+    .outrosmetais{background-color: rgb(140, 188, 202);}
+    .actinidios{background-color: rgb(240, 171, 228);}
+
+    .legenda{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .item{
+        margin: 5px 0;
+        display: inline-block;
+    }
+
+    .cor{
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+    }
+    .nome{
+        font-size: 30px;
+    }
